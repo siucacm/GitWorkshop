@@ -18,6 +18,7 @@ cd WorkshopThree_February3rd2017
 '```
 
 #Setup
+
 ###Branching
 + Next we will make our own indivdual branches
 
@@ -41,6 +42,10 @@ git add encryption
 + Next commit the file to your local repository
 ```bash
 git commit -m "{YOUR COMMIT MESSAGE GOES HERE]"
+```
++ Define the push behavior to avoid nasty messages.
+```bash
+git config --global push.default matching
 ```
 
 + Finally, push the file to GitHub
