@@ -40,7 +40,7 @@ gedit encryption.sh
 ```
 
 ###Add, commit, push
-+ Next, we want to add our branch to SIUC-ACM's GitHub
++ Next, we want to add our branch with our changes to SIUC-ACM's GitHub
 + Start by "staging" or adding the file.
 ```bash
 git add encryption.sh
@@ -48,7 +48,7 @@ git add encryption.sh
 
 + Next commit the file to your local repository
 ```bash
-git commit -m "{YOUR COMMIT MESSAGE GOES HERE]"
+git commit -m "[YOUR COMMIT MESSAGE GOES HERE]"
 ```
 + Define the push behavior to avoid nasty messages.
 ```bash
@@ -78,3 +78,4 @@ git merge answer_for_one
 + Make the script read from the command line.
 + Change the encryption message
 + Use a specific key for encryption to avoid typing in the password each time.
++ [insert features here]
