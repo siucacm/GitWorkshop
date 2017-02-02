@@ -1,7 +1,9 @@
 # WorkshopThree_February3rd2017
 This repository is what participants of the 3rd SIU-ACM workshop will clone to learn the basics of git and github!
 
-#Cloning
+
+#Getting started with git and GitHub
+###Cloning
 + Start by copying the SSH url on the github homepage of this repository
 + Then issue this command on your machine.
 ```bash
@@ -16,8 +18,6 @@ cd WorkshopThree_February3rd2017
 ```bash
 ./ecryption
 ```
-
-#Setup
 
 ###Branching
 + Next we will make our own indivdual branches
@@ -55,8 +55,13 @@ git push origin name_of_my_new_branch
 
 ###Merge
 + Suppose someone else made a really cool feature on their branch, and you want that feature for your branch.
-+ This is why we use branch. We can add the changes from a different branch to our own branch without "checking out" their branch
++ This is why we use branch. We can add the changes from a different branch to our own branch without "checking out" their branch.
 
 ```bash
-git merge 
+git merge answer_for_one
 ```
+
+###Fork and Pull requests
++ Suppose we want someone else's repository on our github account to edit, branch, and push however we like. To do so, all we have to do is head over to that repository's GitHub homepage and hit "fork".
+
++ Suppose now we think our edits are good enough to be put on the original repository. In this case, we can submit a pull request to the owner of that repository, so they can decide whether or not to add our code to theirs.
