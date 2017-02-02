@@ -15,7 +15,7 @@ cd WorkshopThree_February3rd2017
 + Try running the bash script provided
 ```bash
 ./ecryption
-'```
+```
 
 #Setup
 
