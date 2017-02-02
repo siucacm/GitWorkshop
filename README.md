@@ -36,12 +36,12 @@ git checkout name_of_my_new_branch
 + Next, we want to add our branch to SIUC-ACM's GitHub
 + Start by "staging" or adding the filec
 ```bash
-git add encryption
+git add encryption.sh
 ```
 
 + Next commit the file to your local repository
 ```bash
-git commit -m "{YOUR COMMIT MESSAGE GOES HERE]"
+git commit -m "[YOUR COMMIT MESSAGE GOES HERE]"
 ```
 + Define the push behavior to avoid nasty messages.
 ```bash
