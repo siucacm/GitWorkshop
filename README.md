@@ -78,3 +78,4 @@ git merge answer_for_one
 + Make the script read from the command line.
 + Change the encryption message
 + Use a specific key for encryption to avoid typing in the password each time.
++ [insert features here]
