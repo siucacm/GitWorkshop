@@ -1,10 +1,1 @@
-
-
-
-
-
-
-
-echo "Why did the chicken cross the road?"
-sleep 2
-echo "To get to the other side, of course!"
+openssl enc -aes-256-cbc -base64 -in to_encrypt.txt -out encrypted_message.txt
