@@ -34,19 +34,30 @@ git branch name_of_my_new_branch
 git checkout name_of_my_new_branch
 ```
 
-+ Next edit the encryption.sh file to say "Hello ACM"
++ Check to see what branch you are on
+'''bash
+git branch
+'''
+
++ Next edit the encryption.sh file to tell a joke.
 ```bash
 gedit encryption.sh
 ```
 
 ###Add, commit, push
 + Next, we want to add our branch with our changes to SIUC-ACM's GitHub
-+ Start by "staging" or adding the file.
+
++ First push your new branch to the GitHub
+```bash
+git push origin name_of_my_new_branch
+```
+
++ Then, "stage" or add your modified script file.
 ```bash
 git add encryption.sh
 ```
-
-+ Next commit the file to your local repository
+	
++ Next commit your file to your local repository
 ```bash
 git commit -m "[YOUR COMMIT MESSAGE GOES HERE]"
 ```
@@ -55,13 +66,13 @@ git commit -m "[YOUR COMMIT MESSAGE GOES HERE]"
 git config --global push.default matching
 ```
 
-+ Finally, push the file to GitHub
++ Finally, push your edited file to GitHub
 ```bash
-git push origin name_of_my_new_branch
+git push
 ```
 
 ###Merge
-+ Suppose someone else made a really cool feature on their branch, and you want that feature for your branch.
++ Suppose someone else added a really cool feature on their branch, and you want that feature for your branch.
 + This is why we use branch. We can add the changes from a different branch to our own branch without "checking out" their branch.
 
 ```bash
