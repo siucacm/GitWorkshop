@@ -22,7 +22,7 @@ cd WorkshopThree_February3rd2017
 + There's no encryption yet, but we'll get there.
 
 ###Branching
-+ Next we will make our own individual branches upon which we each can modify willy nilly.
++ Next we will make our own individual branches which we each can each make changes.
 
 + Start by making a new branch
 ```bash
