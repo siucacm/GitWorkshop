@@ -16,7 +16,7 @@ cd WorkshopThree_February3rd2017
 
 + Try running the bash script provided
 ```bash
-./ecryption.sh
+./HelloWorld.sh
 ```
 
 + There's no encryption yet, but we'll get there.
