@@ -16,7 +16,7 @@ When using the command prompt you will want to use these useful commands:
 # Getting started with git and GitHub
 ### Installing
 #### Linux
-In the terminal install git by: sudo apt install git-all
+In the terminal install git by: `sudo apt install git-all`
 
 #### Windows
 [Download git here](https://git-scm.com/download/win)
