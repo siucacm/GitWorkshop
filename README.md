@@ -4,14 +4,20 @@ Welcome to the Git Workshop! Today we will learn how to use git with github.
 ### A friendly reminder
 When using the command prompt you will want to use these useful commands:
 #### Linux
-+ **pwd** - (Path Working Directory) displays what directory you are currently in
-+ **ls** - (List) displays the files in the directory you are currently in
-+ **cd** *directory* - (Change Directory) changes the directory you are given a file
-+ **nano** *file* - Edit a file
++ **pwd**
+...(Path Working Directory) displays what directory you are currently in
++ **ls**
+...(List) displays the files in the directory you are currently in
++ **cd** *directory*
+...(Change Directory) changes the directory you are given a file
++ **nano** *file* 
+...Edit a file
 
 #### Windows
-+ **dir** - displays the files in the directory you are currently in
-+ **cd** *directory* - (Change Directory) changes the directory you are given a file
++ **dir**
+...displays the files in the directory you are currently in
++ **cd** *directory*
+...(Change Directory) changes the directory you are given a file
 
 # Getting started with git and GitHub
 ### Installing
