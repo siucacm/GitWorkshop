@@ -1,7 +1,7 @@
 # Git Workshop
 Welcome to the Git Workshop! Today we will learn how to use git with github.
 
-### A friednly reminder
+### A friendly reminder
 When using the command prompt you will want to use these useful commands:
 #### Linux
 + **pwd** - (Path Working Directory) displays what directory you are currently in
@@ -27,6 +27,11 @@ In the terminal install git by: sudo apt install git-all
 ```bash
 git clone [paste url here]
 ```
++ Lets check if the repository was cloned
+```bash
+ls
+```
+
 + Next change into that directory. (Note typing "cd Work" then hittng TAB will save you a lot of effort)
 ```bash
 cd WorkshopThree_February3rd2017
@@ -53,9 +58,9 @@ git checkout name_of_my_new_branch
 ```
 
 + Check to see what branch you are on
-'''bash
+```bash
 git branch
-'''
+```
 
 + Next edit the HelloWorld.sh file to tell a joke.
 ```bash
