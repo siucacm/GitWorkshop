@@ -1,8 +1,26 @@
-# WorkshopThree_February3rd2017
-This repository is what participants of the 3rd SIU-ACM workshop will clone to learn the basics of git and github!
+# Git Workshop
+Welcome to the Git Workshop! Today we will learn how to use git with github.
 
+### A friednly reminder
+When using the command prompt you will want to use these useful commands:
+#### Linux
++ **pwd** - (Path Working Directory) displays what directory you are currently in
++ **ls** - (List) displays the files in the directory you are currently in
++ **cd** *directory* - (Change Directory) changes the directory you are given a file
++ **nano** *file* - Edit a file
+
+#### Windows
++ **dir** - displays the files in the directory you are currently in
++ **cd** *directory* - (Change Directory) changes the directory you are given a file
 
 # Getting started with git and GitHub
+### Installing
+#### Linux
+In the terminal install git by: sudo apt install git-all
+
+#### Windows
+[Download git here](https://git-scm.com/download/win)
+
 ### Cloning
 + Start by copying the SSH url on the github homepage of this repository
 + Then issue this command on your machine.
