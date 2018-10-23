@@ -152,8 +152,27 @@ git push
 ```
 
 ### Merge
-+ Suppose someone else added a really cool feature on their branch, and you want that feature for your branch.
-+ This is why we use branch. We can add the changes from a different branch to our own branch without "checking out" their branch.
++ We can now merge the branch you just created with the master branch.
+
+First switch to the master branch
+```bash
+git checkout master
+```
+
+Then let's merge them
+```bash
+git merge name_of_my_new_branch
+```
+
+Now the branches are merged!
+This is extremely helpful for collaborating with other people, as they won't mess up your own personal branch.
+It is the best way to avoid merge conflicts when working with a group. Merging helps add the changes from a different branch to our own branch without "checking out" their branch. 
+
+### EXTRA
+
++ You can clone this repository down and create your own branch and then merge it with others!
+
+Clone, enter the local repository, create a branch and merge the one below.
 
 ```bash
 git merge answer_for_one
