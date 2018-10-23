@@ -63,9 +63,9 @@ It shows the status of what repository you are fetching and pushing. This also t
 ```bash
 nano README.md
 ```
-Go a head and type a joke. Then `ctrl + o` go through thr prompt and save the file. The `ctrl + x` exits the file.
+Go a head and type a joke. Then `ctrl + o` go through the prompt and save the file. The `ctrl + x` exits the file.
 
-#### Status, Add, Commit, Push
+#### Status, Stage, Commit, Push
 
 Now we are going to update our server repository.
 + Let us see what files have changed
@@ -122,6 +122,7 @@ Add some code to it.
 ```bash
 echo Hello world
 ```
+Then `ctrl + o` go through the prompt and save the file. The `ctrl + x` exits the file
 
 ### Add, commit, push
 + Next, we want to add our branch with our changes to SIUC-ACM's GitHub
