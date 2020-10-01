@@ -91,7 +91,7 @@ git commit -m "Updated README"
 
 + Then we push to the server repository
 ```bash
-git push origin master
+git push origin main
 ```
 Since this is your first push to github, it will prompt you for your username and password.
 
@@ -152,11 +152,11 @@ git push
 ```
 
 ### Merge
-+ We can now merge the branch you just created with the master branch.
++ We can now merge the branch you just created with the main branch.
 
-First switch to the master branch
+First switch to the main branch
 ```bash
-git checkout master
+git checkout main
 ```
 
 Then let's merge them
