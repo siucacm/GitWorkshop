@@ -25,7 +25,7 @@ In the terminal install git by: `sudo apt install git-all`
 In this workshop we will be using github to host the server repository.
 Go ahead and create a new repository through the website and initialize the read me.
 
-### Setting up git account on your terminal
+### Setting up git account on your terminal (OUTDATED)
 
 Set your username in the terminal, this helps git tell them who you are when you make changes.
 ```bash
@@ -37,6 +37,12 @@ You should also set your email.
 git config --global user.email "[[EMAIL@EXAMPLE.com]]"
 ```
 
+### Setting up git account on your terminal (NEW)
+First you have to generate an ssh key and add it to your agent [Follow this](https://docs.github.com/en/github/authenticating-to-github/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent)
+
+Second you have to add the key to github [Follow this](https://docs.github.com/en/github/authenticating-to-github/connecting-to-github-with-ssh/adding-a-new-ssh-key-to-your-github-account)
+
+*Note: If you are on windows, you will either need to install OpenSSH, or use Git Bash*
 ### Cloning
 + Start by copying the HTTPS url on the github repository you just created
 + Then issue this command on your machine.
