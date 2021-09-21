@@ -44,7 +44,7 @@ Second you have to add the key to github [Follow this](https://docs.github.com/e
 
 *Note: If you are on windows, you will either need to install OpenSSH, or use Git Bash*
 ### Cloning
-+ Start by copying the HTTPS url on the github repository you just created
++ Start by copying the SSH url on the github repository you just created
 + Then issue this command on your machine.
 ```bash
 git clone [paste url here]
